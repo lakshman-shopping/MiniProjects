@@ -1,0 +1,18 @@
+server:
+  port: 4041
+spring:
+  application:
+    name: BootMiniproj01-ReportAPI
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///sys
+    username: root
+    password: Lakshman$#865
+  jpa: 
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialet: org.hibernate.dialet.MySQL8Dialet
+       
